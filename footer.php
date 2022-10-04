@@ -23,8 +23,20 @@
 						Company
 					</div>
 					<div class="col-md-4 ms-auto">
-						Keep in touch
+						Keep in Touch
 					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="container pt-2 pb-2">
+			<div class="row d-flex align-items-center">
+				<div class="col">
+					<p>&copy; <?php bloginfo( 'name') ?> <?php echo date ('y') ?> / Created by <a href="https://ecs.pl" target="blank">Łukasz</a></p>
+				</div>
+				<div class="col h-25 d-inline-block text-end">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/payment-methods.png" class="img-fluid " loading="lazy" alt="">
 				</div>
 			</div>
 		</div>
